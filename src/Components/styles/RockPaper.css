@@ -1,0 +1,56 @@
+/* Main container */
+.head-title {
+  text-align: center;
+  padding: 40px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background: #eaeaea;
+  transform: scale(1.03);
+}
+
+button i {
+  font-size: 22px;
+}
+
+/* Output */
+.output {
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.output h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #444;
+}
